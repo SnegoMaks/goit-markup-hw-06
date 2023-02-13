@@ -599,7 +599,7 @@ button {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 408px;
-  height: 576px;
+  height: 584px;
   background-color: var(--modal-win-bgr);
   padding: 72px 24px 24px 24px;
 }
@@ -636,6 +636,7 @@ button {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--contact-form-p);
+  margin-bottom: 16px;
 }
 .contact-modal {
   display: flex;
@@ -660,22 +661,24 @@ button {
   display: block;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.33;
+  line-height: 1.16;
   letter-spacing: 0.04em;
   margin-bottom: 4px;
   color: var(--contact-form-name);
 }
-.contact-form-label {
-  margin-top: 8px;
-}
+
 .contact-form {
   position: relative;
 }
 .contact-form-icon {
   position: absolute;
-  top: 8px;
+  top: 50%;
+  transform: translateY(-50%);
   left: 16px;
   transition: background-color var(--transition-duration-function);
+}
+.contact-form-label {
+  margin-bottom: 8px;
 }
 .contact-form-comment {
   resize: none;
@@ -684,7 +687,7 @@ button {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   padding: 8px 16px;
-  margin-bottom: 18px;
+
   transition: border-color var(--transition-duration-function);
 }
 .contact-form-comment::placeholder {
@@ -722,7 +725,7 @@ button {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-bottom: 22px;
+  margin-bottom: 24px;
   gap: 8px;
   font-weight: 400;
   font-size: 12px;
