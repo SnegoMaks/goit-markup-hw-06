@@ -42,6 +42,7 @@
   --contact-form-focus: #4d5ae5;
   --contact-form-p: #2e2f42;
   --contact-form-befor: #404bbf;
+  --privacy-policy: #4d5ae5;
   /*---overlay----*/
   --overlay-text: #f4f4fd;
   --overlay-bgr: #4d5ae5;
@@ -731,8 +732,10 @@ button {
   font-size: 12px;
   line-height: 1.33;
   letter-spacing: 0.04em;
-
   color: #757575;
+}
+.privacy-policy {
+  color: var(--privacy-policy);
 }
 .contact-form-btn {
   background-color: var(--hero-button);
