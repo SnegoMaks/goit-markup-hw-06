@@ -157,6 +157,10 @@ button {
   top: 0;
   left: 0;
   background-color: var(--mobile-menu-bgr);
+
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
 .mobile-menu-container {
   position: relative;
@@ -164,6 +168,11 @@ button {
   padding-bottom: 40px;
   padding-left: 40px;
   padding-right: 40px;
+}
+.mobile-menu-wind.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 
 /* .header-navi {
