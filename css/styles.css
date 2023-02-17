@@ -124,7 +124,6 @@ button {
 
 /*-----header-----*/
 
-
 /* .header-navi {
   display: flex;
   align-items: center;
@@ -781,4 +780,4 @@ button {
 .contact-form-btn:hover,
 .contact-form-btn:focus {
   background-color: var(--link);
-
+}
