@@ -88,18 +88,41 @@ button {
   border-radius: 4px;
 }
 .container {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+@media screen and (min-width: 480px) {
+  .container {
+    width: 428px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 736px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1158px;
+    padding: 0 15px;
+  }
+}
+/* .container {
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-}
+} */
 
-/*imposibl*/
+/*----imposibl----*/
 .link {
   text-decoration: none;
 }
 
-/*header*/
-.header-navi {
+/*-----header-----*/
+/* .header-navi {
   display: flex;
   align-items: center;
 }
@@ -172,7 +195,7 @@ button {
 .hov:hover,
 .hov:focus {
   color: var(--link);
-}
+} */
 
 /*----------main------------*/
 /*-------section-hero--------*/
