@@ -131,7 +131,7 @@ button {
   }
 }
 @media screen and (min-width: 767px) {
-  .modile-meny-open {
+  .menu-toggle {
     display: none;
   }
 }
