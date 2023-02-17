@@ -144,11 +144,20 @@ button {
   align-items: center;
   justify-content: space-between;
 }
-.modile-meny-open {
+.menu-toggle,
+.js-open-menu {
   background-color: transparent;
   border: none;
   padding: 0;
   line-height: 0;
+}
+.mobile-meny {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
 }
 
 /* .header-navi {
