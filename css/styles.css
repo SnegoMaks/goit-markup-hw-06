@@ -824,10 +824,15 @@ button {
 .contact-form-btn:focus {
   background-color: var(--link);
 }
-.mobile-menu {
-  ont-weight: 700;
+.mobile-menu-li {
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 40px;
+}
+.mobile-menu {
+  padding-top: 80px;
+  padding-left: 40px;
 }
