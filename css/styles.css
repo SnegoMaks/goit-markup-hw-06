@@ -146,7 +146,7 @@ button {
 }
 .modile-meny-open {
   background-color: transparent;
-  bottom: none;
+  border: none;
   padding: 0;
   line-height: 0;
 }
