@@ -122,6 +122,35 @@ button {
 }
 
 /*-----header-----*/
+@media screen and (max-width: 767px) {
+  .header-link {
+    display: none;
+  }
+  .header-navi-sect {
+    display: none;
+  }
+}
+@media screen and (min-width: 767px) {
+  .modile-meny-open {
+    display: none;
+  }
+}
+.header-navi {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.modile-meny-open {
+  background-color: transparent;
+  bottom: none;
+  padding: 0;
+  line-height: 0;
+}
+
 /* .header-navi {
   display: flex;
   align-items: center;
@@ -195,7 +224,7 @@ button {
 .hov:hover,
 .hov:focus {
   color: var(--link);
-} */
+} 
 
 /*----------main------------*/
 /*-------section-hero--------*/
