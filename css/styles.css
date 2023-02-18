@@ -196,12 +196,11 @@ button {
     visibility: visible;
     pointer-events: auto;
   }
-  .mobile-menu-navi-li {
+  .mobile-menu-navi-li > .link {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    padding-bottom: 40px;
     color: var(--head-text);
   }
   .mobile-menu-tel {
@@ -209,6 +208,7 @@ button {
     font-size: 36px;
     line-height: 1.11;
     padding-bottom: 40px;
+    padding-top: 244px;
   }
   .mobile-menu-mail {
     font-weight: 500;
@@ -216,6 +216,10 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--mobile-menu-mail);
+  }
+  .moile-menu-soc-btn {
+    padding-top: 48px;
+    padding-bottom: 0;
   }
 }
 @media screen and (min-width: 768px) {
